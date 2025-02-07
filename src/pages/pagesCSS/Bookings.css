@@ -1,0 +1,129 @@
+/* ---------------- BOOKINGS ------------------- */
+
+.bookings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 40px;
+    background: linear-gradient(to right, #00994d79, #16302D);
+    margin: 0;
+  }
+  
+ /* ---------------- BOOKINGS 1-BLOCK ------------------- */
+
+.bookings-first-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  gap: 20px; /* Add spacing between items */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.bookings-first-block h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  text-align: center; /* Center the text */
+}
+
+.bookings-first-block img {
+  max-width: 100%; /* Ensure image scales for smaller screens */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Prevent distortion if size changes */
+}
+
+.first-block-images {
+  position: relative;
+}
+
+.bookings-first-block .bubble1 {
+  max-width: 50%; 
+  height: auto; 
+  position: absolute;
+  top: 10px;
+  left: -250px;
+  z-index: 0;
+}
+
+.bookings-first-block .bubble2 {
+  max-width: 100%; 
+  height: auto; 
+  position: absolute;
+  top: 400px;
+  right: 10px;
+  object-fit: contain;
+  z-index: 0;
+}
+
+/* ---------------- BOOKINGS CALENDAR ------------------- */
+
+.bookings-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%; /* Make calendar block responsive */
+  padding: 20px; /* Add padding for spacing */
+  margin: 0 auto; /* Center the calendar on the page */
+}
+
+.bookings-calendar img {
+  max-width: 100%; /* Ensure image scales within container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Prevent cropping */
+  margin-top: 10px; /* Add spacing above image */
+}
+  
+  /* ---------------- BOOKINGS ROOMS BLOCK ------------------- */
+  
+  .rooms {
+    background: linear-gradient(to left, #00994d79, #16302D);
+    padding: 100px 300px;
+  }
+
+  .room {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 40px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .room img {
+    width: 50%; 
+  }
+  
+  .room-info {
+    color: black;
+    padding: 20px;
+  }
+  
+  .room-info span {
+    color: #81D386;
+  }
+  
+  .book-now {
+    background: #50C557;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 15px;
+  }
+  
+  .book-now:hover {
+    background: #81D386;
+  }
+  
+  .more-details {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid #50C557;
+    padding: 10px 20px;
+  }

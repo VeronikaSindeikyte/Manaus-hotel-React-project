@@ -1,0 +1,33 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    background: radial-gradient(circle, #1e694467, #16302D);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black; 
+  }
+  
+  .not-found h2 {
+    font-size: 5rem; 
+    margin-bottom: 1rem;
+    color: #d9534f; 
+  }
+  
+  .not-found p {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .not-found a {
+    text-decoration: none;
+    color: green; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .not-found a:hover {
+    color: darkgreen; 
+  }

@@ -1,0 +1,20 @@
+html, body {
+ font-family: "Krona One", serif;
+ margin: 0;
+ background: linear-gradient(to right, #12472d, #16302D);
+ color: white;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+button, nav {
+  font-family: "Krona One", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+

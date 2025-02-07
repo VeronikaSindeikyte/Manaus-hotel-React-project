@@ -1,0 +1,221 @@
+/* ---------------- HOME CONTENT ------------------- */
+/* General Styling */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, #00994d, #16302D);
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.home-nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00cc66; /* Bright green */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.home-nav a:hover {
+  background-color: #00994d; 
+  color: #ffffff;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* ---------------- BLOCK 1 ------------------- */
+
+.first-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  gap: 40px;
+
+}
+
+/* Image Styling */
+.first-block img {
+  width: 50%; /* Adjust width for the image */
+  height: auto;
+}
+
+/* Text Box Styling */
+.first-block .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center;
+  padding: 30px;
+  border-radius: 50%;
+  height: 600px;
+  max-width: 500px;
+}
+
+.first-block .text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.first-block .text p {
+  margin-bottom: 30px;
+}
+
+/* Navigation Buttons */
+.first-block .home-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.first-block .home-nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.first-block .home-nav a:hover {
+  color: #ffffff;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.first-block .contact-us-button {
+  border: 3px solid #EFF1EC;
+  background-color: #ffffff00;
+}
+
+.first-block .bookings-button {
+  color: black;
+}
+
+/* ---------------- BLOCK 2 ------------------- */
+
+.second-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1800px;
+    height: 1,010px;
+    padding: 80px 250px 80px 250px;
+}
+
+.second-block-text {
+    max-width: 647px;
+}
+
+.second-block-text h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    max-width: 350px;
+}
+
+.second-block-text p {
+    margin-bottom: 60px;
+}
+
+.second-block-images img {
+  width: 100%; /* Adjust width for the image */
+  max-height: 501px;
+  gap: 46px;
+}
+
+/* ---------------- BLOCK 3 ------------------- */
+
+.third-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 100%;
+}
+
+.third-block-content{
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  max-width: 100%;
+  background: linear-gradient(to left, #00994d, #002a2e);
+}
+
+.third-block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px; 
+  border-radius: 10px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.third-block img {
+  max-width: 100%;
+  height: 614px;
+}
+
+
+/* ---------------- BLOCK 4 ------------------- */
+
+
+.fourth-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 1,010px;
+    padding: 80px 250px 80px 250px;
+}
+
+.fourth-block-text {
+    max-width: 647px;
+}
+
+.fourth-block-text h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    max-width: 350px;
+}
+
+.fourth-block-text p {
+    margin-bottom: 60px;
+}
+
+.fourth-block-carousel {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .fourth-block-carousel {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center; 
+    }
+}
+
+  
+  /* Styling for the images inside the gallery */
+  .fourth-block-carousel a img {
+    width: 300px; /* Set a fixed width for images */
+    height: 400px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and fit the size */
+    margin: 0 5px; 
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+  }
+  
+  .fourth-block-carousel a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  

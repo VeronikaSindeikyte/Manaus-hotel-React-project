@@ -1,0 +1,86 @@
+.room-layout {
+    font-family: "Krona One", serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black;
+    background-color: rgb(207, 223, 207);
+}
+
+/* Header styling */
+.room-layout h2 {
+    font-size: 24px;
+    color: #16302D;
+    margin-bottom: 10px;
+}
+
+/* Description paragraph */
+.room-layout p {
+    font-size: 20px;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+/* Navigation container styling */
+.room-layout nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* NavLink default styling */
+.room-layout nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #002a2e;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+/* NavLink hover state */
+.room-layout nav a:hover {
+    background: linear-gradient(to right, #0e9e59, #16302D);
+    color: #fff;
+    border-color: #002a2e;
+}
+
+/* NavLink active state */
+.room-layout nav a.active {
+    background: linear-gradient(to right, #0e9e59, #16302D);
+    color: #fff;
+    border-color: #002a2e;
+}
+
+/* Outlet content styling */
+.room-layout .outlet {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #16302D;
+}
+
+.room-layout ul li {
+    color: #16302D;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+/* ---------- ROOMS ------------ */
+
+.standard-room img, .superior-room img, .deluxe-room img, .suite-room img, .junior-suite img {
+ max-width: 100%;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+

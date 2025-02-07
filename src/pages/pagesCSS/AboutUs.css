@@ -1,0 +1,52 @@
+/* ---------------- ABOUT US ------------------- */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffffff;
+    padding: 40px;
+    background: radial-gradient(circle, #00994d, #002a2e);
+  }
+  
+  /* ---------------- IMAGE BLOCK ------------------- */
+  
+  .about-image-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; /* Space between images */
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image-block img {
+    width: 500px; 
+    height:500px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+  
+  /* ---------------- ABOUS US 2-BLOCK ------------------- */
+
+  .about-second-block {
+    padding: 30px 100px;
+    max-width: 981px;
+  }
+
+  .about-second-block h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    max-width: 400px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+
+  
