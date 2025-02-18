@@ -1,6 +1,6 @@
 # Manaus-hotel
 
-A small react project for learning the structure of react layouts, components and pages. Design was using figma example.
+A small react project for learning the structure of react layouts, components and pages. Design written using figma example.
 
 ## Home page:
 ![image](https://github.com/user-attachments/assets/e89d5057-a901-4b5d-a4cd-7790517919b5)
